@@ -1,0 +1,32 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  background-color: lightcoral;
+}
+
+button {
+  background-color: rgb(241, 167, 167);
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: rgb(43, 42, 42);
+  border-radius: 12px;
+  border-color: rgb(43, 42, 42);
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e7e7e7;
+}
+
+#oscilloscope {
+  align-content: center;
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+  padding-top: 100px;
+  font-size: small;
+  text-align: center;
+}

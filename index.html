@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
+  </style>
+  <body>
+    <h4><b>AUDIO VISUALISIERUNG</b></h4>
+    <canvas id="oscilloscope" width="700" height="200"> </canvas>
+    <button data-playing="false" role="switch" aria-checked="false">
+      <span>START | STOP</span>
+    </button>
+    <audio id="myAudio" src="AudioFiles/ownIntroSong.m4a"></audio>
+    <footer>
+      <p>© 2021 Lorenzo Schnobl</p>
+    </footer>
+  </body>
+  <script language="javascript" type="text/javascript" src="script.js"></script>
+</html>
