@@ -3,17 +3,6 @@
 
 #define ArrayGröße 10
 
-/*
-*  Diese Aufgabe ist in Gruppenarbeit entstanden!
-*  Folgende Studierende haben an der Enwicklung der Lösung mitgewirkt:
-*  - Tristan Grobasch (1278200)
-*  - Johannes Jäger (1258390)
-*  - Lorenzo Schnobl (749069) 
-*  - Marie Hergenröder (1258246)
-*
-*  Alle Studierenden sind in der Lage, die Aufgabe selbstständig zu erklären und den Entwicklungsprozess zu erläutern!
-*  
-*/
 
 // globale Variablen für die Queue
 int frontPointer = -1;
@@ -265,7 +254,6 @@ int main()
     printf("%d \n", sizeList()); // 0
     emptyList();                 // Liste ist leer!
 
-    // Matrikelnummer Lorenzo Schnobl: 749069
     enqueueList(7);
     enqueueList(4);
     enqueueList(9);
@@ -295,12 +283,3 @@ int main()
     frontList();                    // 4
 }
 
-/*	
-
-Vielen lieben Dank für Ihre Mühen in diesem Modul!
-
-(\_/)
-( •,•)
-(")_(")
-
-*/
