@@ -2,16 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
-*  Diese Aufgabe ist in Gruppenarbeit entstanden!
-*  Folgende Studierende haben an der Enwicklung der Lösung mitgewirkt:
-*  - Tristan Grobasch (1278200)
-*  - Johannes Jäger (1258390)
-*  - Lorenzo Schnobl (749069) 
-*
-*  Alle Studierenden sind in der Lage, die Aufgabe selbstständig zu erklären und den Entwicklungsprozess zu erläutern!
-*  
-*/
 
 // Bekanntmachung der Funktionen
 int linearSearch(int arr[], int x);
