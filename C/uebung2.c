@@ -97,6 +97,5 @@ void ausgabe(float ergebnis[25][25])
 
 /*
 Lorenzo Schnobl
-749069
 12.11.2020
 */
